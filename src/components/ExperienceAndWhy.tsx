@@ -2,22 +2,22 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
   title: "Yachting, Not Cruising®",
-  description: "Sail aboard SeaDream I and II—sleek, modern yachts where you’ll drop anchor in secluded coves and exclusive ports.",
+  description: "With only 112 guests, SeaDream offers an exclusive, intimate alternative to traditional cruising.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Casual Elegance",
-  description: "No tuxedos or formal nights—just barefoot luxury and impeccable service in an atmosphere of refined informality.",
+  title: "Water Sports Marina",
+  description: "Swim, sail, or jet ski directly from the ship’s retractable marina.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Award-Winning Cuisine",
-  description: "Savor 5-star dining al fresco or in the elegant dining salon, with menus inspired by fresh, local ingredients.",
+  title: "Open Bar & Gourmet Cuisine",
+  description: "Includes fine wine, top-shelf spirits, and cuisine tailored to dietary preferences.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Personalized Service",
-  description: "With nearly one crew member per guest, expect intuitive service that caters to your every desire.",
+  title: "Balinese Dream Beds",
+  description: "Sleep under the stars on private outdoor daybeds with butler service.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* SeaDream Yacht Club Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
